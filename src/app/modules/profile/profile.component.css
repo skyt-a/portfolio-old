@@ -1,0 +1,22 @@
+.section_profile {
+    margin-top: 84px;
+}
+
+.profile-card {
+    width: 70%;
+    margin: 20px auto;
+}
+
+div.mat-card-avatar {
+    height: 60px;
+    width: 60px;
+}
+
+.profile-header-image {
+    background-image: url('/assets/images/mypet.png');
+    background-size: cover;
+}
+
+.sns-icons {
+    text-align: right;
+}
