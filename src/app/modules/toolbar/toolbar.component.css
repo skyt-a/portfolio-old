@@ -1,0 +1,12 @@
+.mat-toolbar {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+  }
+
+.toolbar-label {
+    padding: 20px;
+    cursor: pointer;
+}

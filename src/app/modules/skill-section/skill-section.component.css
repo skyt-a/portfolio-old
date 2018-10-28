@@ -1,0 +1,79 @@
+.section_skill {
+  margin-top: 64px;
+}
+
+p.caption {
+  color: black;
+  font-size: 120%;
+  font-weight: bold;
+  border-bottom: dashed 2px black;
+}
+
+p.caption_small ＋ mat-grid-list {
+  margin-left: 20px;
+}
+
+p.caption_small {
+  margin-left: 20px;
+  padding: 0.25em 0.5em;
+  color: #494949;
+  background: transparent;
+  border-left: solid 5px #7db4e6;
+  width: fit-content;
+}
+
+.img_skill {
+  height: 200px;
+  width: auto;
+}
+
+.img_jquery {
+  margin-top: 25%;
+  height: auto;
+  width: 100%;
+}
+
+.wrapper_img_skill {
+  text-align: center;
+  height: 200px;
+}
+
+.wrapper_img_jquery {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.img_typescript {
+  width: 100%;
+  height: auto;
+}
+
+.skill-row {
+  display: flex;
+  width: 100%;
+  overflow: auto;
+}
+
+.skill-card {
+  height: 300px;
+  width: 80%;
+  min-width: 300px;
+  max-width: 300px;
+  margin: 0 30px 20px 30px;
+}
+
+mat-card-title.skill-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-bottom: solid 3px black;
+}
+
+.skills {
+  margin-bottom: 20px;
+}
+
+.status-row {
+  width: 100%;
+  overflow: auto;
+}

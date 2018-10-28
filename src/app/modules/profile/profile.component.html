@@ -1,0 +1,30 @@
+<section class="section_profile">
+  <mat-card class="profile-card">
+    <mat-card-header>
+      <div mat-card-avatar class="profile-header-image"></div>
+      <mat-card-title>酒向 祐太</mat-card-title>
+      <mat-card-subtitle>Sakou Yuta</mat-card-subtitle> 
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        {{myBirthDay.year}}年{{myBirthDay.month}}月{{myBirthDay.date}}日生。満{{calcTodayAge()}}歳。
+      </p>
+      <p>
+        岐阜県で生まれ、大学進学を機に上京。横浜国立大学にて経営学を学ぶ。
+      </p>
+      <p>
+        在学中にコンピュータに触れ、IT業界を志望。SIer企業へ就職。
+      </p>
+      <p>
+        就職後は主に業務Webアプリケーションの設計・開発に携わる。
+      </p>
+      <p>
+        2019年半ばを目途にフリーランスとして活動開始予定。
+      </p>
+      <mat-card-content>
+        <span><i class="fa fa-envelope  fa-lg"></i> hedgehog1135019@gmail.com</span>
+        <div class="sns-icons"><i class="fa fa-github fa-3x" (click)="goToGithubPage()"></i><i class="fa fa-twitter fa-3x"></i></div>
+      </mat-card-content>
+    </mat-card-content>
+  </mat-card>
+</section>

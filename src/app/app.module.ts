@@ -6,7 +6,9 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { LandingModule } from './modules/landing/landing.module';
-
+import { SkillSectionModule } from './modules/skill-section/skill-section.module';
+import { ProfileModule } from './modules/profile/profile.module';
+import { ToolbarModule } from './modules/toolbar/toolbar.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,10 @@ import { LandingModule } from './modules/landing/landing.module';
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
-    LandingModule
+    LandingModule,
+    SkillSectionModule,
+    ProfileModule,
+    ToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
